@@ -19,9 +19,10 @@ int main()
     h.get_max();
 
     cout << "heap" << endl;
-    cout << h<<endl;
-
-    //cin >> h;
+    cout << h <<endl;
+    cin >> h;
+    cout << "heap" << endl;
+    cout << h << endl;
 
     /*
     cout << "heap" << endl;

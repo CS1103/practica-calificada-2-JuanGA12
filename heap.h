@@ -63,16 +63,16 @@ public:
     }
 
 
-    /*template <typename T>
     friend std::istream& operator >> (std::istream& in, heap<Container>& heap){
 
-        T  x;
-        std::cin >> x;
-        in >> heap.insert(x);
+        std::cout<<"Ingresar valor: "<<endl;
+        int  x;
+        in >> x;
+        heap.insert(x);
         return in;
     }
 
-*/
+
    friend std::ostream& operator << (std::ostream& out, const heap<Container>& heap){
 
             for(auto &v:heap.vec) {
